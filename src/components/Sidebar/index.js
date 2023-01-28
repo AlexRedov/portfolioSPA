@@ -26,6 +26,7 @@ const Sidebar = () => (
             </NavLink>
         </nav>
         <ul>
+            <span>Контакты</span>
             <li>
                 <a 
                     target='_blank' 

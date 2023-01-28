@@ -45,12 +45,12 @@ const About = () => {
               Ссылка на проект - <a href='https://github.com/AlexRedov/LandingPage.git' target='_blank' 
                     rel='noreferrer'>https://github.com/AlexRedov/LandingPage.git.</a>
             </li>
-            
+            <br/>
             <li> 2. Канбан-доска. Было реализовано приложение согласно ТЗ с помощью React, сверстан интерфейс по заданному макету. 
               Стэк - Git, Webpack, Npm, ReactJS, React Router, React Context, CSS. <a href='https://github.com/AlexRedov/KanbanBoard' target='_blank' 
                     rel='noreferrer'>https://github.com/AlexRedov/KanbanBoard.</a>
             </li>
-            
+            <br/>
             <li> 3. Сервис учета украденных велосипедов. Реализация клиентской части сайта. 
               Был реализован сайт предназначенный как для сотрудников компании, так и для обычных пользователей. 
               Стэк технологий - Git, Webpack, Npm, ReactJS, React Router, React Context, axios, CSS module.

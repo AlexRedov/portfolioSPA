@@ -76,7 +76,7 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="SEND" />
+                  <input type="submit" className="flat-button" value="Отправить" />
                 </li>
               </ul>
             </form>
@@ -88,13 +88,12 @@ const Contact = () => {
           Россия,
           <br />
           Волгоградская область, Волжский <br />
-          <span>kralex87@mail.ru</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[48.7731, 44.8005]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[48.7731, 44.8005]}>
-              <Popup>Здесь можно выпить кофе</Popup>
+              <Popup>Здесь можно выпить кофе и поговорить</Popup>
             </Marker>
           </MapContainer>
         </div>

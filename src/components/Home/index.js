@@ -27,18 +27,19 @@ const Home = () => {
                         <span className={`${letterClass} _12`}>и</span>
                         <span className={`${letterClass} _13`}>в</span>
                         <span className={`${letterClass} _14`}>е</span>
-                        <span className={`${letterClass} _15`}>т,</span>
+                        <span className={`${letterClass} _15`}>т</span>
+                        <span className={`${letterClass} _16`}>,</span>
                         <br/>
-                        <span className={`${letterClass} _16`}>м</span>
-                        <span className={`${letterClass} _17`}>е</span>
-                        <span className={`${letterClass} _18`}>н</span>
-                        <span className={`${letterClass} _19`}>я</span>
-                        <span className={`${letterClass} _20`}> </span>
-                        <span className={`${letterClass} _21`}>з</span>
-                        <span className={`${letterClass} _22`}>о</span>
-                        <span className={`${letterClass} _23`}>в</span>
-                        <span className={`${letterClass} _24`}>у</span>
-                        <span className={`${letterClass} _25`}>т</span>
+                        <span className={`${letterClass} _17`}>м</span>
+                        <span className={`${letterClass} _18`}>е</span>
+                        <span className={`${letterClass} _19`}>н</span>
+                        <span className={`${letterClass} _20`}>я</span>
+                        <span className={`${letterClass} _21`}> </span>
+                        <span className={`${letterClass} _22`}>з</span>
+                        <span className={`${letterClass} _23`}>о</span>
+                        <span className={`${letterClass} _24`}>в</span>
+                        <span className={`${letterClass} _25`}>у</span>
+                        <span className={`${letterClass} _26`}>т</span>
                         <br/>
                         <AnimatedLetters letterClass={letterClass} 
                         strArray={nameArray}
@@ -50,11 +51,11 @@ const Home = () => {
                         idx={38}/>
                         <br/>
                     </h1>
-                    <h2>
+                    <p>
                        На этом сайте используется следующий стэк технологий <strong>HTML5/ CSS / SCSS / JavaScript / React /</strong>, а также 
                        использовались библиотеки<strong> react-router-dom / loader.css / animate.css / React-leaflet / emailjs / fortawesome / </strong>
-                    </h2>
-                    <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+                    </p>
+                    <Link to='/contact' className='flat-button'>Написать мне</Link>
                 </div>
                 <Logo />
             </div>

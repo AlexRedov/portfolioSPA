@@ -14,7 +14,7 @@
     opacity: 0.6;
     position: absolute;
     bottom: 0;
-    left: 120px;
+    left: 165px;
     font-size: 18px;
     font-family: 'La Belle Aurore';
 }
@@ -53,7 +53,6 @@
         margin-top: 0;
         position: relative;
         margin-bottom: 40px;
-        left: -10px;
   
         &:before {
           content: '<h1>';
@@ -62,7 +61,6 @@
           font-size: 18px;
           position: absolute;
           margin-top: -10px;
-          left: -10px;
           opacity: 0.6;
           line-height: 18px;
         }
@@ -74,15 +72,14 @@
           font-size: 18px;
           line-height: 18px;
           position: absolute;
-          left: -30px;
+          left: 0;
           bottom: -20px;
-          margin-left: 20px;
           opacity: 0.6;
         }
       }
   
       p {
-        font-size: 13px;
+        font-size: 14px;
         color: #A8BBBF;
         font-family: sans-serif;
         font-weight: 300;

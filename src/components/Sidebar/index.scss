@@ -1,6 +1,6 @@
 .nav-bar {
     background: #736243;
-    width: 115px;
+    width: 155px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -47,11 +47,11 @@
         width: 100%;
 
         a {
-            font-size: 30px;
+            font-size: 40px;
             color: #374036;
             display: block;
-            line-height: 51px;
-            height: 51px;
+            line-height: 50px;
+            height: 50px;
             position: relative;
             text-decoration: none;
 
@@ -112,6 +112,11 @@
     }
 
     ul {
+
+        span {
+            font-size: 18px;
+            color: #A8BBBF;
+        }
         position: absolute;
         bottom: 20px;
         width: 100%;
@@ -124,7 +129,7 @@
             a {
                 padding: 7px 0;
                 display: block;
-                font-size: 20px;
+                font-size: 25px;
                 line-height: 22px;
 
                 &:hover {

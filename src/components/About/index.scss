@@ -2,10 +2,8 @@ p {
   &::before {
     content: '<p>';
     font-family:'La Belle Aurore';
-    font-size: 13px;
     color: #EFF291;
     margin-top: 18px;
-    margin-left: 40px;
     opacity: 0.6;
   }
 
@@ -20,7 +18,8 @@ p {
 }
 
 .text-zone--aboutUl {
-  font-size: 13px;
+  padding: 0;
+  font-size: 14px;
   color: #A8BBBF;
   font-family: sans-serif;
   font-weight: 300;
@@ -42,7 +41,6 @@ p {
     content: '<ul>';
     font-family: 'La Belle Aurore', cursive;
     color: #EFF291;
-    font-size: 13px;
     opacity: 0.6;
   }
 
@@ -50,7 +48,6 @@ p {
     content: '</ul>';
     font-family: 'La Belle Aurore', cursive;
     color: #EFF291;
-    font-size: 13px;
     opacity: 0.6;
     animation: fadeIn 1s 1.7s backwards;
   }

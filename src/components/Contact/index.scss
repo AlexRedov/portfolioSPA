@@ -100,7 +100,7 @@
     background: #736243;
     top: 50px;
     right: 29%;
-    z-index: 999999;
+    z-index: 10;
     padding: 20px;
     color: #A8BBBF;
     font-family: 'Helvetica';
@@ -109,11 +109,6 @@
     opacity: 0;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
-  
-    span {
-      font-size: 16px;
-        color: #EFF291;
-    }
 }
 
 @media screen and (max-width: 1200px)  {
